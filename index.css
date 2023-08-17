@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+img{
+    width: 15%;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}    
+h1{
+    color: yellow;
+}
+.naija{color: #ffffff;}
+.sport{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-left: 4rem;
+    display: grid;
+    place-items: center;
+}
+.bet{
+    /* display: grid;
+    align-items: center;
+    margin-bottom: 2rem; */
+}
+.join{
+    background-color: yellow;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: grey;
+    font-size: xx-large;
+    border: none;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.click{
+    text-decoration: none;
+}
+button:hover{
+    scale: 1.5;
+}
+.already{
+    background-color: grey;
+    color: yellow;
+    cursor: pointer;
+    border-color: yellow;
+    padding: 0 0.2rem;
+}
+h2{
+    color: #ffffff;
+}
+b{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
